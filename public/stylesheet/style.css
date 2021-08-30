@@ -1,22 +1,40 @@
 @font-face {
   font-family: cowboy;
-  src: url(/public/fonts/BookmanStd-Bold.otf);
+  src: url(/fonts/BookmanStd-Bold.otf);
 }
 
 body {
   background-color: black;
 }
+
+#nav li {
+  font-family: "cowboy";
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
 #homeh1 {
   font-family: "cowboy";
-  font-size: 20rem;
+  font-size: 8rem;
+  color: white;
+  margin-top: 2rem;
 }
 
 img#caratula {
-  width: 5px;
+  width: 35%;
+
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 #cuerpo {
   background-color: black;
   display: flex;
   align-items: center;
+  flex-direction: column;
+}
+
+#cuerpo > p {
+  color: white;
+  font-size: 1.5rem;
+  width: 60%;
 }
