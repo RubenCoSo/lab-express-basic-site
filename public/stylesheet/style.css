@@ -1,0 +1,22 @@
+@font-face {
+  font-family: cowboy;
+  src: url(/public/fonts/BookmanStd-Bold.otf);
+}
+
+body {
+  background-color: black;
+}
+#homeh1 {
+  font-family: "cowboy";
+  font-size: 20rem;
+}
+
+img#caratula {
+  width: 5px;
+}
+
+#cuerpo {
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
